@@ -96,6 +96,34 @@ body {
 	height: 200px;
 }
 
+.dissertation {
+	position: relative;
+	height: 118px;
+	margin-bottom: 3em;
+}
+
+.dissertation iframe {
+    vertical-align: top;
+    width: 300px;
+    height: 118px;
+    
+    float: left;
+}
+
+.dissertation img {
+    vertical-align: top;
+    width: 300px;
+    height: 118px;
+    
+    float: left;
+}
+
+.dissertation div {
+    width: 465px;
+    float: right;
+	height: 118px;
+}
+
 .spacer {
 	width: 800px;
 	height: 2em;
