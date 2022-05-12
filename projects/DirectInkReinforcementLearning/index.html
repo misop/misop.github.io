@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Closed-Loop Control of Direct Ink Writing via Reinforcement Learning</title>
+        <meta name="description" content="Perception-Aware Modeling and Fabrication of Digital Drawing Tools">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <div id="header">
+  <div class="wrap">
+      <div class="right">
+          <a href="https://ist.ac.at/en/home/"><img src="images/ista.png" height="91px"/></a>
+      </div>
+  </div>
+</div>
+        <div id="content" class="wrap">
+            <div class="paperTitle">
+                <h1>Closed-Loop Control of Direct Ink Writing via Reinforcement Learning</h1>
+                <div class="authors">
+                    <a href="http://pdf.mmci.uni-saarland.de/people/misop/">Michal Piovarči</a><sup>*1</sup><span class="space"></span> Michael Foshey<sup>*2</sup><span class="space"></span> Jie Xu<sup>2</sup><span class="space"></span> Timothy Erps<sup>2</sup><span class="space"></span><a href="http://aidam.mpi-inf.mpg.de/">Vahid Babaei</a><sup>3</sup><br /> <a href="https://www.pdf.inf.usi.ch/index.html">Piotr Didyk</a><sup>4</sup><span class="space"></span> <a href="https://www.cs.princeton.edu/~smr/">Szymon Rusinkiewicz</a><sup>5</sup><span class="space"></span> <a href="https://cdfg.csail.mit.edu/wojciech">Wojciech Matusik</a><sup>2</sup><span class="space"></span> <a href="http://berndbickel.com/about-me">Bernd Bickel</a><sup>1</sup><br />
+                </div>
+		<div class="universities">
+                <sup>*</sup>Both authors contributed substantially to this research.
+		</div>
+		<div class="universities">
+                <sup>1</sup>Institute of Science and Technology Austria, ISTA<span class="smallspace"></span>
+                <sup>3</sup>MIT CSAIL<span class="smallspace"></span>
+                <sup>3</sup>Max-Planck Institute for Informatik<span class="smallspace"></span><br />
+                <sup>4</sup>Università della Svizzera italiana<span class="smallspace"></span>
+                <sup>5</sup>Princeton UNiversity
+		</div>
+            </div>
+            <img src="images/Teaser.png" width="100%" />
+            <p style="text-align:justify">Enabling additive manufacturing to employ a wide range of novel, functional materials can be a major boost to this technology. However, making such materials printable requires painstaking trial-and-error by an expert operator, as they typically tend to exhibit peculiar rheological or hysteresis properties. Even in the case of successfully finding the process parameters, there is no guarantee of print-to-print consistency due to material differences between batches. These challenges make closed-loop feedback an attractive option where the process parameters are adjusted on-the-fly. There are several challenges for designing an efficient controller: the deposition parameters are complex and highly coupled, artifacts occur after long time horizons, simulating the deposition is computationally costly, and learning on hardware is intractable. In this work, we demonstrate the feasibility of learning a closed-loop control policy for additive manufacturing using reinforcement learning. We show that approximate, but efficient, numerical simulation is sufficient as long as it allows learning the behavioral patterns of deposition that translate to real-world experiences. In combination with reinforcement learning, our model can be used to discover control policies that outperform baseline controllers. Furthermore, the recovered policies have a minimal sim-to-real gap. We showcase this by applying our control policy in-vivo on a single-layer printer using low and high viscosity materials. </p>
+	    <!--<iframe width="800" height="400" src="" frameborder="0" allowfullscreen></iframe>-->
+            <h2>Downloads</h2>
+            <div class="pdfdiv">
+                <a href="files/Piovarci2022.pdf"><img src="images/pdf-icon.png" height="40px" class="pdfico" /></a>
+                Paper <a href="files/Piovarci2022.pdf">[PDF ~33MB]</a>
+            </div>
+            <div class="pdfdiv">
+                <a href="files/Piovarci2022_supplement.pdf"><img src="images/pdf-icon.png" height="40px" class="pdfico" /></a>
+                Supplementary Material <a href="files/Piovarci2022_supplement.pdf">[PDF ~5MB]</a>
+            </div>
+            <div class="pdfdiv">
+                <a href="https://github.com/misop/Closed-Loop-Control-of-Direct-Ink-Writing-via-Reinforcement-Learning"><img src="images/github.png" height="40px" class="pdfico" /></a>
+               <a href="https://github.com/misop/Closed-Loop-Control-of-Direct-Ink-Writing-via-Reinforcement-Learning">Github Repository</a>
+            </div>
+            <div>
+                <h2>Citation</h2>
+                Michal Piovarči, Michael Foshey, Jie Xu, Timothy Erps, Vahid Babaei, Piotr Didyk, Szymon Rusinkiewicz, Wojciech Matusik, Bernd Bickel <b>Closed-Loop Control of Direct Ink Writing via Reinforcement Learning</b>, ACM Transactions on Graphics 41(4) (Proc. SIGGRAPH 2022, Vancouver, Canada)
+                <br /><br />
+                <samp>
+                    @article{Piovarci2022,<br />
+                      &nbsp;&nbsp;author = {
+                        Michal Piovar\v{c}i and
+                        Michael Foshey and
+                        Jie Xu and
+						Timothy Erps and
+						Vahid Babaei and
+						Piotr Didyk and
+						Szymon Rusinkiewicz and
+						Wojciech Matusik and
+                        Bernd Bickel},<br />
+                      &nbsp;&nbsp;title = {Closed-Loop Control of Direct Ink Writing via Reinforcement Learning},<br />
+                      &nbsp;&nbsp;journal = {ACM Transactions on Graphics (Proc. SIGGRAPH)},<br />
+                      &nbsp;&nbsp;year = {2022},<br />
+                      &nbsp;&nbsp;volume = {41},<br />
+                      &nbsp;&nbsp;number = {4}<br />
+                    }
+                </samp>
+            </div>
+            <h2>Collaborations</h2>
+            <div id="collaborations">
+                <a href="https://www.mit.edu/"><img src="images/mit.png" /></a>
+                <a href="https://www.usi.ch/"><img src="images/usi_logo.png" /></a>
+                <a href="https://www.mpi-inf.mpg.de/home/"><img src="images/mpii3.png" /></a>
+                <a href="https://www.princeton.edu/"><img src="images/princeton.png" /></a>
+            </div>
+        </div>
+        <!--<div id="footer" class="wrap">
+            <hr />
+            <a href="https://www.mpi-inf.mpg.de/imprint/">Imprint</a> | <a href="https://www.mpi-inf.mpg.de/data-protection/">Data protection</a>
+        </div>-->
+    <br/><br/><br/></body>
+</html>
