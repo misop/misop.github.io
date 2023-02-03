@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Towards Spatially Varying Gloss Reproduction for 3D Printing</title>
+        <meta name="description" content="Towards Spatially Varying Gloss Reproduction for 3D Printing">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>  
+        <div id="content" class="wrap">
+            <div class="paperTitle">
+                <h1>Towards Spatially Varying Gloss Reproduction for 3D Printing</h1>
+                <div class="authors">
+                    <a href="https://misop.github.io/">Michal Piovarči</a><sup>1</sup><span class="space"></span> <a href="https://www.linkedin.com/in/michael-foshey-1081764b/?original_referer=https%3A%2F%2Fwww.pdf.inf.usi.ch%2F"> Michael Foshey</a><sup>2</sup><span class="space"></span><a href="https://aidam.mpi-inf.mpg.de/?view=people_vahid"> Vahid Babaei</a><sup>3</sup><span class="space"></span><a href="https://www.cs.princeton.edu/~smr/">Szymon Rusinkiewicz</a><sup>4</sup><br/><a href="https://cdfg.csail.mit.edu/wojciech">Wojciech Matusik</a><sup>2</sup><span class="space"></span> <a href="https://www.pdf.inf.usi.ch/index.html">Piotr Didyk</a><sup>1,2</sup><br/>
+                </div>
+		<div class="universities">
+                <sup>1</sup>Università della Svizzera italiana<span class="smallspace"></span>
+                <sup>2</sup>Massachusetts Institute of Technology<span class="smallspace"></span>
+                <sup>3</sup>Max Planck Institute for Informatics<span class="smallspace"></span>
+                <sup>4</sup>Princeton University
+		</div>
+            </div>
+            <img src="images/Teaser.png" width="100%" />
+	    <p style="text-align:justify">3D printing technology is a powerful tool for manufacturing complex shapes with high-quality textures. Gloss, next to color and shape, is one of the most salient visual aspects of an object. Unfortunately, printing a wide range of spatially-varying gloss properties using state-of-the-art 3D printers is challenging as it relies on geometrical modifications to achieve the desired appearance. A common post-processing step is to apply off-the-shelf varnishes that modify the final gloss. The main difficulty in automating this process lies in the physical properties of the varnishes which owe their appearance to a high concentration of large particles and as such, they cannot be easily deposited with current 3D color printers. As a result, fine-grained control of gloss properties using today's 3D printing technologies is limited in terms of both spatial resolution and the range of achievable gloss. We address the above limitations and propose new printing hardware based on piezo-actuated needle valves capable of jetting highly viscous varnishes. Based on the new hardware setup, we present the complete pipeline for controlling the gloss of a given 2.5D object, from printer calibration, through material selection, to the manufacturing of models with spatially-varying reflectance. Furthermore, we discuss the potential integration with current 3D printing technology. Apart from being a viable solution for 3D printing, our method offers an additional and essential benefit of separating color and gloss fabrication which makes the process more flexible and enables high-quality color and gloss reproduction.</p>
+	    <iframe width="800" height="400" src="https://www.youtube.com/embed/uhoJsr2bn8c" frameborder="0" allowfullscreen></iframe>
+            <h2>Downloads</h2>
+            <div class="pdfdiv">
+                <a href="files/Piovarci2020.pdf"><img src="images/pdf-icon.png" height="40px" class="pdfico"/></a>
+                Paper <a href="files/Piovarci2020.pdf">[PDF ~46 MB]</a>
+            </div>
+            <div class="pdfdiv">
+                <a href="https://www.pdf.inf.usi.ch/projects/SpatiallyVaryingGloss/index.html"><img src="images/website.png" height="40px" class="pdfico"/></a>
+               <a href="https://www.pdf.inf.usi.ch/projects/SpatiallyVaryingGloss/index.html">Project Website</a>
+            </div>
+            <div>
+                <h2>Citation</h2>
+                Michal Piovarči, Michael Foshey, Vahid Babaei, Szymon Rusinkiewicz, Wojciech Matusik, Piotr Didyk, <b>Towards Spatially Varying Gloss Reproduction for 3D Printing</b>, ACM Transactions on Graphics 39(6) (Proc. SIGGRAPH Asia 2020)
+                <br/><br/>
+                <samp>
+                    @article{Piovarci2020,<br/>
+                      &nbsp;&nbsp;author = {
+                        Michal Piovar\v{c}i and
+                        Michael Foshey and
+                        Vahid Babaei and
+						Szymon Rusinkiewicz and
+						Wojciech Matusik and
+                        Piotr Didyk},<br/>
+                      &nbsp;&nbsp;title = {Fabrication-in-the-Loop Co-Optimization of Surfaces and Styli for Drawing Haptics},<br/>
+                      &nbsp;&nbsp;journal = {ACM Transactions on Graphics (Proc. SIGGRAPH Asia)},<br/>
+                      &nbsp;&nbsp;year = {2020},<br/>
+                      &nbsp;&nbsp;volume = {39},<br/>
+                      &nbsp;&nbsp;number = {6}<br/>
+                    }
+                </samp>
+            </div>
+			<h2>Acknowledgements</h2>
+			<div style="text-align:justify">We would like to thank Sebastian Cucerca for his help with measuring the varnish samples, Gretchen M Eggers for her help with calibrating the jetting nozzles, and Bernd Bickel for his prompt help with printing the colored heightfields. This work is graciously supported by the following grant agencies: ERC Starting Grant (PERDY-804226), NSF (grants CHS-1617236, IIS-1815070, and IIS-1815585).</div>
+            <h2>Collaborations</h2>
+            <div id="collaborations">
+                <a href="https://www.usi.ch/"><img src="images/usi_logo.png"/></a>
+                <a href="https://www.utoronto.ca/"><img src="images/toronto_university.png"/></a>
+                <a href="https://research.adobe.com/"><img src="images/adobe.png"/></a>
+                <a href="https://www.mpi-inf.mpg.de/home/"><img src="images/mpii3.png"/></a>
+                <a href="http://www.mmci.uni-saarland.de/en/start"><img src="images/mmci.png"/></a>
+                <a href="http://www.uni-saarland.de/en/home.html"><img src="images/uds_logo.png"/></a>
+            </div>
+        </div>
+        <!--<div id="footer" class="wrap">
+            <hr />
+            <a href="https://www.mpi-inf.mpg.de/imprint/">Imprint</a> | <a href="https://www.mpi-inf.mpg.de/data-protection/">Data protection</a>
+        </div>-->
+    <br/><br/><br/></body>
+</html>
