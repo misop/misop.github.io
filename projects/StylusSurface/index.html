@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fabrication-in-the-Loop Co-Optimization of Surfaces and Styli for Drawing Haptics</title>
+        <meta name="description" content="Fabrication-in-the-Loop Co-Optimization of Surfaces and Styli for Drawing Haptics">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>  
+        <div id="content" class="wrap">
+            <div class="paperTitle">
+                <h1>Fabrication-in-the-Loop Co-Optimization of Surfaces and Styli for Drawing Haptics</h1>
+                <div class="authors">
+                    <a href="https://misop.github.io/">Michal Piovarči</a><sup>1,2</sup><span class="space"></span> <a href="https://research.adobe.com/person/danny-kaufman/">Danny Kaufman</a><sup>3</sup><span class="space"></span><a href="http://diwlevin.webfactional.com/researchdb/">David I.W. Levin</a><sup>4</sup><span class="space"></span> <a href="https://www.pdf.inf.usi.ch/index.html">Piotr Didyk</a><sup>1,2</sup><br/>
+                </div>
+		<div class="universities">
+                <sup>1</sup>MPI Informatik, Saarland University, MMCI<span class="smallspace"></span>
+                <sup>2</sup>Università della Svizzera italiana<span class="smallspace"></span>
+                <sup>3</sup>Adobe Research<span class="smallspace"></span>
+                <sup>4</sup>University of Toronto
+		</div>
+            </div>
+            <img src="images/Teaser.png" width="100%" />
+	    <p style="text-align:justify">Digital drawing tools are now standard in art and design workflows. These tools offer comfort, portability, and precision as well as native integration with digital-art workflows, software, and tools. At the same time, artists continue to work with long-standing, traditional drawing tools. One feature of traditional tools, well-appreciated by many artists and lacking in digital tools, is the specific and diverse range of haptic responses provided by them. Haptic feedback in traditional drawing tools provides unique, per-tool responses that help determine the precision and character of individual strokes. In this work, we address the problem of fabricating digital drawing tools that closely match the haptic feedback of their traditional counterparts. This requires the formulation and solution of a complex, co-optimization of both digital styli and the drawing surfaces they move upon. Here, a potentially direct formulation of this optimization with numerical simulation-in-the-loop is not yet viable. As in many complex design tasks, state-of-the-art methods do not currently offer predictive modeling at rates and scales that can account for the numerous, coupled, physical behaviors governing the haptics of styli and surfaces, nor for the limitations and uncertainties inherent in their fabrication processes. To address these challenges, we propose fabrication-in-the-loop optimization. Critical to making this strategy practical we construct our objective via a Gaussian Process that does not require computing derivatives with respect to design parameters. Our Gaussian Process surrogate model then provides both function estimates and confidence intervals that guide the efficient sampling of our design space. In turn, this sampling critically reduces the numbers of fabricated examples during exploration and automatically handles exploration-exploitation trade-offs. We apply our method to fabricate drawing tools that provide a wide range of haptic feedback, and demonstrate that they are often hard for users to distinguish from their traditional drawing-tool analogs. </p>
+	    <iframe width="800" height="400" src="https://www.youtube.com/embed/plcUO8lwKH8" frameborder="0" allowfullscreen></iframe>
+            <h2>Downloads</h2>
+            <div class="pdfdiv">
+                <a href="files/Piovarci2020.pdf"><img src="images/pdf-icon.png" height="40px" class="pdfico"/></a>
+                Paper <a href="files/Piovarci2020.pdf">[PDF ~18MB]</a>
+            </div>
+            <div class="pdfdiv">
+                <a href="https://github.com/misop/Fabrication-in-the-Loop-Co-Optimization-of-Surfaces-and-Styli-for-Drawing-Haptics"><img src="images/github.png" height="40px" class="pdfico"/></a>
+               <a href="https://github.com/misop/Fabrication-in-the-Loop-Co-Optimization-of-Surfaces-and-Styli-for-Drawing-Haptics">Github Repository</a>
+            </div>
+            <div class="pdfdiv">
+                <a href="https://www.pdf.inf.usi.ch/projects/SurfaceStylusCoOpt/index.html"><img src="images/website.png" height="40px" class="pdfico"/></a>
+               <a href="https://www.pdf.inf.usi.ch/projects/SurfaceStylusCoOpt/index.html">Project Website</a>
+            </div>
+            <div>
+                <h2>Citation</h2>
+                Michal Piovarči, David I.W. Levin, Danny Kaufman, Piotr Didyk, <b>Perception-Aware Modeling and Fabrication of Digital Drawing Tools</b>, ACM Transactions on Graphics 39(4) (Proc. SIGGRAPH 2020)
+                <br/><br/>
+                <samp>
+                    @article{Piovarci2020,<br/>
+                      &nbsp;&nbsp;author = {
+                        Michal Piovar\v{c}i and
+                        Danny Kaufman and
+                        David I.W. Levin and
+                        Piotr Didyk},<br/>
+                      &nbsp;&nbsp;title = {Fabrication-in-the-Loop Co-Optimization of Surfaces and Styli for Drawing Haptics},<br/>
+                      &nbsp;&nbsp;journal = {ACM Transactions on Graphics (Proc. SIGGRAPH)},<br/>
+                      &nbsp;&nbsp;year = {2020},<br/>
+                      &nbsp;&nbsp;volume = {39},<br/>
+                      &nbsp;&nbsp;number = {4}<br/>
+                    }
+                </samp>
+            </div>
+            <h2>Collaborations</h2>
+            <div id="collaborations">
+                <a href="https://www.usi.ch/"><img src="images/usi_logo.png"/></a>
+                <a href="https://www.utoronto.ca/"><img src="images/toronto_university.png"/></a>
+                <a href="https://research.adobe.com/"><img src="images/adobe.png"/></a>
+                <a href="https://www.mpi-inf.mpg.de/home/"><img src="images/mpii3.png"/></a>
+                <a href="http://www.mmci.uni-saarland.de/en/start"><img src="images/mmci.png"/></a>
+                <a href="http://www.uni-saarland.de/en/home.html"><img src="images/uds_logo.png"/></a>
+            </div>
+        </div>
+        <!--<div id="footer" class="wrap">
+            <hr />
+            <a href="https://www.mpi-inf.mpg.de/imprint/">Imprint</a> | <a href="https://www.mpi-inf.mpg.de/data-protection/">Data protection</a>
+        </div>-->
+    <br/><br/><br/></body>
+</html>
