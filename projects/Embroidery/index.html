@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Directionality-Aware Design of Embroidery Patterns </title>
+        <meta name="description" content="Gloss management for consistent reproduction of real and virtual objects">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>  
+        <div id="content" class="wrap">
+            <div class="paperTitle">
+                <h1>Directionality-Aware Design of Embroidery Patterns</h1>
+                <div class="authors">
+					<a href="https://desmondlzy.me/">Liu Zhenyuan</a><sup>1,2</sup><span class="space"></span>
+                    <a href="https://misop.github.io/">Michal Piovarči</a><sup>1</sup><span class="space"></span>
+					Christian Hafner<sup>1</sup><span class="space"></br>
+					Raphael Charrondiere<sup>1</sup><span class="space"></span>
+					<a href="http://berndbickel.com/">Bernd Bickel</a><sup>1</sup><span class="space"></span>				
+                </div>
+		<div class="universities">
+                <sup>1</sup>ISTA<span class="smallspace"></span>
+                <sup>2</sup>EPFL<span class="smallspace">
+		</div>
+            </div>
+            <img src="images/Teaser.png" width="100%" />
+	    <p style="text-align:justify">Embroidery is a long-standing and high-quality approach to making logos and images on textiles. Nowadays, it can also be performed via automated machines that weave threads with high spatial accuracy. 
+A characteristic feature of the appearance of the threads is a high degree of anisotropy. The anisotropic behavior is caused by depositing thin but long strings of thread. As a result, the stitched patterns convey both color and direction. 
+Artists leverage this anisotropic behavior to enhance pure color images with textures, illusions of motion, or depth cues. However, designing colorful embroidery patterns with prescribed directionality is a challenging task, one usually requiring an expert designer. 
+In this work, we propose an interactive algorithm that generates machine-fabricable embroidery patterns from multi-chromatic images equipped with user-specified directionality fields. 
+We cast the problem of finding a stitching pattern into vector theory. 
+To find a suitable stitching pattern, we extract sources and sinks from the divergence field of the vector field extracted from the input and use them to trace streamlines. We further optimize the streamlines to guarantee a smooth and connected stitching pattern. 
+The generated patterns approximate the color distribution constrained by the directionality field. 
+To allow for further artistic control, the trade-off between color match and directionality match can be interactively explored via an intuitive slider. 
+We showcase our approach by fabricating several embroidery paths. </p>
+            <h2>Downloads</h2>
+            <div class="pdfdiv">
+                <a href="files/Zhenyuan2023.pdf"><img src="images/pdf-icon.png" height="40px" class="pdfico"/></a>
+                Paper <a href="files/Zhenyuan2023.pdf">[PDF ~24 MB]</a>
+            </div>
+            <div>
+                <h2>Citation</h2>
+                Liu Zhenyuan, Michal Piovarci, Christian Hafner, Raphael Charrondiere, Bernd Bickel, <b>Directionality-Aware Design of Embroidery Patterns</b>, Computer Graphics Forum 42 (2023)
+                <br/><br/>
+                <samp>
+                    @inproceedings{Chen2022,<br/>
+                      &nbsp;&nbsp;author = {
+					    Liu Zhenyuan and
+                        Michal Piovar\v{c}i and
+						Christian Hafner and
+                        Raphael Charrondiere and
+						Bernd Bickel},<br/>
+                      &nbsp;&nbsp;title = {Directionality-Aware Design of Embroidery Patterns},<br/>
+                      &nbsp;&nbsp;booktitle = {Computer Graphics Forum},<br/>
+					  &nbsp;&nbsp;volume = {42},<br/>
+                      &nbsp;&nbsp;number = {2},<br/>
+                      &nbsp;&nbsp;year = {2023},<br/>
+                    }
+                </samp>
+            </div>
+			<h2>Acknowledgements</h2>
+			<div style="text-align:justify">This work is supported by FWF Lise Meitner (Grant M 3319), European Research Council (project CHAMELEON, Grant no. 682080), Swiss National Science Foundation (Grant no. 200502), and academic gifts from Meta.</div>
+            <h2>Collaborations</h2>
+            <div id="collaborations">
+                <a href="https://ist.ac.at/en/home/"><img src="images/ista.png"/></a>
+                <a href=""><img src="images/epfl.png"/></a>
+            </div>
+        </div>
+        <!--<div id="footer" class="wrap">
+            <hr />
+            <a href="https://www.mpi-inf.mpg.de/imprint/">Imprint</a> | <a href="https://www.mpi-inf.mpg.de/data-protection/">Data protection</a>
+        </div>-->
+    <br/><br/><br/></body>
+</html>
