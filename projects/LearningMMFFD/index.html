@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Learning Deposition Policies for Fused Multi-Material 3D Printing</title>
+        <meta name="description" content="Gloss management for consistent reproduction of real and virtual objects">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>  
+        <div id="content" class="wrap">
+            <div class="paperTitle">
+                <h1>Learning Deposition Policies for Fused Multi-Material 3D Printing</h1>
+                <div class="authors">
+					Kang Liao<sup>*,1,2</sup><span class="space"></span>
+                    <a href="http://thibaulttricard.fr/">Thibault Tricard</a><sup>*,1</sup><span class="space"></span>
+                    <a href="https://misop.github.io/">Michal Piovarči</a><sup>3</sup><span class="space"><br/>
+					Hans-Peter Seidel<sup>1</sup><span class="space"></span>
+					<a href="https://aidam.mpi-inf.mpg.de/">Vahid Babaei</a><sup>1</sup><span class="space">			
+                </div>
+		<div class="universities">
+                <sup>*</sup>Both authors contributed substantially to this research.<span class="smallspace"><br/>
+                <sup>1</sup>Max-Planck-Institut für Informatik<span class="smallspace"></span>
+                <sup>2</sup>Beijing Jiaotong University<span class="smallspace"></span>				
+                <sup>3</sup>ISTA<span class="smallspace">
+		</div>
+            </div>
+            <img src="images/Teaser.png" width="100%" />
+	    <p style="text-align:justify">3D printing based on continuous deposition of materials, such as filament-based 3D printing, has seen widespread adoption thanks to its versatility in working with a wide range of materials. An important shortcoming of this type of technology is its limited multi-material capabilities. While there are simple hardware designs that enable multi-material printing in principle, the required software is heavily underdeveloped. A typical hardware design <emph>fuses</emph> together individual materials fed into a single chamber from multiple inlets before they are deposited. This design, however, introduces a time delay between the intended material mixture and its actual deposition. In this work, inspired by diverse path planning research in robotics, we show that this mechanical challenge can be addressed via improved printer control. We propose to formulate the search for optimal multi-material printing policies in a reinforcement learning setup. We put forward a simple numerical deposition model that takes into account the non-linear material mixing and delayed material deposition. To validate our system we focus on color fabrication, a problem known for its strict requirements for varying material mixtures at a high spatial frequency. We demonstrate that our learned control policy outperforms state-of-the-art hand-crafted algorithms.</p>
+            <h2>Downloads</h2>
+            <div class="pdfdiv">
+                <a href="files/Liao2023.pdf"><img src="images/pdf-icon.png" height="40px" class="pdfico"/></a>
+                Paper <a href="files/Liao2023.pdf">[PDF ~6 MB]</a>
+            </div>
+            <div>
+                <h2>Citation</h2>
+                Kang Liao, Thibault Tricard, Michal Piovarci, Hans-Peter Seidel, Vahid Babaei, <b>Learning Deposition Policies for Fused Multi-Material 3D Printing</b>, ICRA (2023)
+                <br/><br/>
+                <samp>
+                    @inproceedings{Liao2023,<br/>
+                      &nbsp;&nbsp;author = {
+					    Kang Liao and
+						Thibault Tricard and
+                        Michal Piovar\v{c}i and
+						Hans-Peter Seidel and
+						Vahid Babaei},<br/>
+                      &nbsp;&nbsp;title = {Directionality-Aware Design of Embroidery Patterns},<br/>
+                      &nbsp;&nbsp;booktitle = {ICRA},<br/>
+                      &nbsp;&nbsp;year = {2023},<br/>
+                    }
+                </samp>
+            </div>
+			<h2>Acknowledgements</h2>
+			<div style="text-align:justify">This work is graciously supported by FWF Lise Meitner (Grant M 3319). Kang Liao sincerely thank Emiliano Luci, Chunyu Lin, and Yao Zhao for their huge support.</div>
+            <h2>Collaborations</h2>
+            <div id="collaborations">
+                <a href="https://www.mpi-inf.mpg.de/home/"><img src="images/mpii3.png"/></a>
+                <a href="http://en.njtu.edu.cn/"><img src="images/jiatong.png"/></a>
+                <a href="https://ist.ac.at/en/home/"><img src="images/ista.png"/></a>
+            </div>
+        </div>
+    <br/><br/><br/></body>
+</html>
