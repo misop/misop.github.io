@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The effect of display capabilities on the gloss consistency between real and virtual objects</title>
+        <meta name="description" content="Gloss management for consistent reproduction of real and virtual objects">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>  
+        <div id="content" class="wrap">
+            <div class="paperTitle">
+                <h1>The effect of display capabilities on the gloss consistency between real and virtual objects</h1>
+                <div class="authors">
+					<a href="https://binchen.me/">Bin Chen</a><sup>1,*</sup><span class="space"></span>
+					<a href="https://akshayjindal.com">Akshay Jindal</a><sup>2,3,*</sup><span class="space"></span>
+                    <a href="https://misop.github.io/">Michal Piovarči</a><sup>4</sup><span class="space"></span>
+					Chao Wang<sup>1</sup><span class="space"></span>
+					<a href="https://people.mpi-inf.mpg.de/~hpseidel/english.html">Hans-Peter Seidel</a><sup>1</sup><br/>
+					<a href="https://www.pdf.inf.usi.ch/index.html">Piotr Didyk</a><sup>5</sup><span class="space"></span>
+					<a href="https://people.mpi-inf.mpg.de/~karol/">Karol Myszkowski</a><sup>1</sup><span class="space"></span>					
+					<a href="https://ana-serrano.github.io/">Ana Serrano</a><sup>6</sup><span class="space"></span>						
+					<a href="https://www.cl.cam.ac.uk/~rkm38/">Rafal K. Mantiuk</a><sup>3</sup><span class="space"></span><br/>			
+                </div>
+		<div class="universities">
+            <sup>1</sup>Max-Planck-Institut für Informatik<span class="smallspace"></span>
+            <sup>2</sup>Intel Corporation<span class="smallspace"></span>
+            <sup>3</sup>University of Cambridge<span class="smallspace"></span>
+            <sup>4</sup>ISTA<span class="smallspace"></span><br />
+            <sup>5</sup>Universita della Svizzera Italiana<span class="smallspace"></span>
+            <sup>6</sup>Universidad de Zaragoza, I3A<br />
+            <sup>*</sup>Both authors contributed equally
+		</div>
+            </div>
+            <img src="images/Teaser.png" width="100%" />
+	    <p style="text-align:justify">A faithful reproduction of gloss is inherently difficult because of the limited dynamic range, peak luminance, and 3D capabilities of display devices. This work investigates how the display capabilities affect gloss appearance with respect to a real-world reference object. To this end, we employ an accurate imaging pipeline to achieve a perceptual gloss match between a virtual and real object presented side-by-side on an augmented-reality high-dynamic-range (HDR) stereoscopic display, which has not been previously attained to this extent. Based on this precise gloss reproduction, we conduct a series of gloss matching experiments to study how gloss perception degrades based on individual factors: object albedo, display luminance, dynamic range, stereopsis, and tone mapping. We support the study with a detailed analysis of individual factors, followed by an in-depth discussion on the observed perceptual effects. Our experiments demonstrate that stereoscopic presentation has a limited effect on the gloss matching task on our HDR display. However, both reduced luminance and dynamic range of the display reduce the perceived gloss. This means that the visual system cannot compensate for the changes in gloss appearance across luminance (lack of gloss constancy), and the tone mapping operator should be carefully selected when reproducing gloss on a low dynamic range (LDR) display. </p>
+            <h2>Downloads</h2>
+            <div class="pdfdiv">
+                <a href="files/Bin2023.pdf"><img src="images/pdf-icon.png" height="40px" class="pdfico"/></a>
+                Paper <a href="files/Bin2023.pdf">[PDF ~32 MB]</a>
+            </div>
+            <div class="pdfdiv">
+                <a href="files/Bin2023_supplemental.pdf"><img src="images/pdf-icon.png" height="40px" class="pdfico"/></a>
+                Paper <a href="files/Bin2023_supplemental.pdf">[PDF ~44 MB]</a>
+            </div>
+            <div class="pdfdiv">
+                <a href="https://stereohdrgloss.mpi-inf.mpg.de"><img src="images/website.png" height="40px" class="pdfico"/></a>
+               <a href="https://stereohdrgloss.mpi-inf.mpg.de">Project Website</a>
+            </div>
+            <div>
+                <h2>Citation</h2>
+                Bin Chen, Akshay Jindal, Michal Piovarci, Chao Wang, Hans-Peter Seidel, Piotr Didyk, Karol Myszkowski, Ana Serrano, Rafal K. Mantiuk, <b>The effect of display capabilities on the gloss consistency between real and virtual objects</b>, SIGGRAPH Asia Conference Papers (2023)
+                <br/><br/>
+                <samp>
+                    @inproceedings{Condor2023,<br/>
+                      &nbsp;&nbsp;author = {
+					    Bin Chen and
+                        Akshay Jindal and
+                        Michal Piovar\v{c}i and
+						Chao Wang and
+                        Hans-Peter Seidel and
+						Piotr Didyk and
+                        Karol Myszkowski and
+                        Ana Serrano and
+                        Rafal K. Mantiuk},<br/>
+                      &nbsp;&nbsp;title = {The effect of display capabilities on the gloss consistency between real and virtual objects},<br/>
+                      &nbsp;&nbsp;booktitle = {SIGGRAPH Asia 2023 Conference Papers},<br/>
+                      &nbsp;&nbsp;year = {2023},<br/>
+                    }
+                </samp>
+            </div>
+			<h2>Acknowledgements</h2>
+			<div style="text-align:justify">This work is supported by FWF Lise Meitner (Grant M 3319), Span- ish Agencia Estatal de Investigación (project PID2022-141539NB- I00), European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agree- ment N◦ 725253–EyeCode), Swiss National Science Foundation (Grant no. 200502), and academic gifts from Meta. We thank Dmitry Lubyako and Ali Özgür Yöntem for building the turntable for our experiment.</div>
+            <h2>Collaborations</h2>
+            <div id="collaborations">
+                <a href="https://www.mpi-inf.mpg.de/home/"><img src="images/mpii3.png"/></a>
+                <a href="https://www.intel.com/content/www/us/en/homepage.html"><img src="images/intel.png"/></a>
+                <a href="https://www.cam.ac.uk"><img src="images/cambridge.png"/></a>
+                <a href="https://ist.ac.at/en/home/"><img src="images/ista.png"/></a>
+                <a href="https://www.usi.ch/"><img src="images/usi_logo.png"/></a>
+                <a href="http://cud.unizar.es/"><img src="images/centro.png"/></a>
+            </div>
+        </div>
+    <br/><br/><br/></body>
+</html>
