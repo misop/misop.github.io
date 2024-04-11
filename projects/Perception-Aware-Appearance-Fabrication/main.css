@@ -37,6 +37,7 @@ body {
     position:relative;
     margin:0 auto;
     width: 800px;
+    margin-top: -2em;
 }
 
 .paperTitle {
